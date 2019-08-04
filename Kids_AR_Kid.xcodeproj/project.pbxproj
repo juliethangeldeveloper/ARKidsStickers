@@ -12,6 +12,8 @@
 		5C7117E522F6531600C8EA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7117E322F6531600C8EA76 /* Main.storyboard */; };
 		5C7117E722F6531700C8EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7117E622F6531700C8EA76 /* Assets.xcassets */; };
 		5C7117EA22F6531700C8EA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7117E822F6531700C8EA76 /* LaunchScreen.storyboard */; };
+		5C7117F222F66D0D00C8EA76 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C7117F122F66D0D00C8EA76 /* Scene.sks */; };
+		5C7117F422F66D1E00C8EA76 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7117F322F66D1E00C8EA76 /* Scene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C7117E622F6531700C8EA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C7117E922F6531700C8EA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C7117EB22F6531700C8EA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7117F122F66D0D00C8EA76 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		5C7117F322F66D1E00C8EA76 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5C7117E622F6531700C8EA76 /* Assets.xcassets */,
 				5C7117E822F6531700C8EA76 /* LaunchScreen.storyboard */,
 				5C7117EB22F6531700C8EA76 /* Info.plist */,
+				5C7117F122F66D0D00C8EA76 /* Scene.sks */,
+				5C7117F322F66D1E00C8EA76 /* Scene.swift */,
 			);
 			path = Kids_AR_Kid;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				5C7117EA22F6531700C8EA76 /* LaunchScreen.storyboard in Resources */,
 				5C7117E722F6531700C8EA76 /* Assets.xcassets in Resources */,
+				5C7117F222F66D0D00C8EA76 /* Scene.sks in Resources */,
 				5C7117E522F6531600C8EA76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				5C7117E222F6531600C8EA76 /* ViewController.swift in Sources */,
 				5C7117DE22F6531600C8EA76 /* AppDelegate.swift in Sources */,
+				5C7117F422F66D1E00C8EA76 /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
