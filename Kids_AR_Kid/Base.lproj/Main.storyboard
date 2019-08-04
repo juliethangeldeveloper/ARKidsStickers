@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </arskView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyW-fS-5rV">
-                                <rect key="frame" x="6" y="799" width="402" height="51"/>
+                                <rect key="frame" x="2" y="799" width="410" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="QwU-O6-nLE">
                                         <variation key="heightClass=compact-widthClass=regular" constant="46"/>
@@ -96,6 +96,12 @@
                                     <action selector="clearButtonAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="3Hp-pr-bJR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-kV-35i">
+                                <rect key="frame" x="20" y="59" width="22" height="22"/>
+                                <connections>
+                                    <action selector="contributionsInfoAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="fgK-h0-bqW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -105,7 +111,7 @@
                                 <variation key="heightClass=compact-widthClass=regular" constant="680"/>
                             </constraint>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="centerY" secondItem="iyW-fS-5rV" secondAttribute="centerY" id="39y-XV-h9U">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-13.5"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-3"/>
                             </constraint>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="centerY" secondItem="iyW-fS-5rV" secondAttribute="centerY" id="3hT-Yz-zrJ"/>
                             <constraint firstItem="s8b-Aj-8WL" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="600" id="5E6-Zv-AOL"/>
@@ -117,14 +123,14 @@
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="centerY" secondItem="iyW-fS-5rV" secondAttribute="centerY" id="83h-Ws-mt7"/>
                             <constraint firstItem="s8b-Aj-8WL" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" constant="20" symbolic="YES" id="946-s4-91E"/>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="leading" secondItem="iyW-fS-5rV" secondAttribute="leading" id="A4g-dp-Lh8">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-6"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
                             </constraint>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="bottom" secondItem="iyW-fS-5rV" secondAttribute="bottom" id="B3w-6h-ESw"/>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="704" id="CZA-nG-yTW"/>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="centerY" secondItem="iyW-fS-5rV" secondAttribute="centerY" id="Cho-mn-8iF"/>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="centerX" secondItem="xfs-cN-Ji8" secondAttribute="centerX" id="Cjk-ZJ-3Gw"/>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="trailing" secondItem="iyW-fS-5rV" secondAttribute="trailing" id="ClN-He-H0v">
-                                <variation key="heightClass=regular-widthClass=compact" constant="6"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="2"/>
                             </constraint>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="DGc-md-RK5"/>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="DNj-Al-lqc"/>
@@ -163,6 +169,8 @@
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="iyW-fS-5rV" secondAttribute="bottom" constant="5" id="cg0-Ya-b7k"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="iyW-fS-5rV" secondAttribute="bottom" constant="12" id="dXi-pL-aYk"/>
                             <constraint firstItem="s8b-Aj-8WL" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="15" id="eIz-Pr-4VJ"/>
+                            <constraint firstItem="n9h-kV-35i" firstAttribute="top" secondItem="s8b-Aj-8WL" secondAttribute="top" id="hCO-9K-zAa"/>
+                            <constraint firstItem="n9h-kV-35i" firstAttribute="leading" secondItem="U0K-SW-4ec" secondAttribute="leadingMargin" id="hg5-wt-j52"/>
                             <constraint firstItem="s8b-Aj-8WL" firstAttribute="trailing" secondItem="U0K-SW-4ec" secondAttribute="trailingMargin" id="jDP-rb-agn"/>
                             <constraint firstItem="s8b-Aj-8WL" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="jan-jj-g2O"/>
                             <constraint firstAttribute="bottom" secondItem="aZY-bA-eT1" secondAttribute="bottom" id="kUn-Ig-gvy">
@@ -361,7 +369,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="123.91304347826087"/>
+            <point key="canvasLocation" x="131.25" y="123.18840579710145"/>
         </scene>
     </scenes>
 </document>

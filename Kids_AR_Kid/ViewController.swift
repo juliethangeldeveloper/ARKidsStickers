@@ -101,6 +101,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
     }
 
+    @IBAction func contributionsInfoAction(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Developer and Image Information", message: "My name is Julieth Angel. The images of the Unicode emojis are Copyright © 1991-2019 Unicode, Inc. All rights reserved", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
     
    
 }
@@ -114,17 +119,23 @@ extension ViewController: ARSKViewDelegate{
    
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
+        let alert = UIAlertController(title: "There was an error with loading Camera", message: "We are sorry for the inconvinience. We are getting better every day and would be fixing this soon. Thank you", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
         
     }
     
     func sessionWasInterrupted(_ session: ARSession) {
         // Inform the user that the session has been interrupted, for example, by presenting an overlay
+        let alert = UIAlertController(title: "There was an Interruption with loading Camera", message: "We are sorry for the inconvinience. We are getting better every day and would be fixing this soon. Thank you", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
         
     }
     
     func sessionInterruptionEnded(_ session: ARSession) {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
-        
+       
     }
     
 }
