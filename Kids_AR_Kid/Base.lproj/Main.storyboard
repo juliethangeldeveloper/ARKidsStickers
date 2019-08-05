@@ -22,13 +22,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </arskView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfs-cN-Ji8">
-                                <rect key="frame" x="164" y="802" width="86" height="48"/>
+                                <rect key="frame" x="136.5" y="756" width="141" height="72"/>
                                 <color key="backgroundColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="0cD-Xu-mH3"/>
                                     <constraint firstAttribute="height" constant="106" id="VB2-d4-nIH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Button"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -79,16 +79,17 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-kV-35i">
                                 <rect key="frame" x="20" y="59" width="22" height="22"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <connections>
                                     <action selector="contributionsInfoAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="fgK-h0-bqW"/>
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyW-fS-5rV">
-                                <rect key="frame" x="2" y="782" width="410" height="80"/>
+                                <rect key="frame" x="2" y="723" width="410" height="139"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="QwU-O6-nLE">
                                         <variation key="heightClass=compact-widthClass=regular" constant="46"/>
-                                        <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="139"/>
                                     </constraint>
                                 </constraints>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -159,7 +160,7 @@
                                 <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="xfs-cN-Ji8" firstAttribute="centerY" secondItem="iyW-fS-5rV" secondAttribute="centerY" id="Vh0-0L-j2K">
-                                <variation key="heightClass=regular-widthClass=compact" constant="4"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-0.5"/>
                             </constraint>
                             <constraint firstItem="aZY-bA-eT1" firstAttribute="leading" secondItem="U0K-SW-4ec" secondAttribute="leading" id="Wha-f4-GaY"/>
                             <constraint firstAttribute="trailing" secondItem="aZY-bA-eT1" secondAttribute="trailing" id="YaJ-Ve-B4G"/>

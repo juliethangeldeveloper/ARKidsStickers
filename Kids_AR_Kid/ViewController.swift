@@ -35,6 +35,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         currentEmoji = "  "
         currentEmoji.append(emoji[0])
+        currentEmoji.append(" ")
         currenEmojiButton.setTitle(currentEmoji, for: .normal)
         emojiPicker.layer.backgroundColor = UIColor.lightText.cgColor
     }
@@ -74,16 +75,32 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         currenEmojiButton.isHidden = false
     }
     
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        var pickerLabel = view as? UILabel;
+        
+        if (pickerLabel == nil)
+        {
+            pickerLabel = UILabel()
+            pickerLabel?.font = UIFont(name: "Arial", size: 70)
+        }
+        
+        pickerLabel?.text = emoji[row]
+ 
+        return pickerLabel!
+    }
+    
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        
+        
         return emoji[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
-        return 50
+        return 70
     }
     
     func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
-        return 45
+        return 110
     }
     
    
