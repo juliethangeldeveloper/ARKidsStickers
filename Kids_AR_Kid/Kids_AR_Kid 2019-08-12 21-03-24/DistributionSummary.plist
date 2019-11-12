@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kids_AR_Kid.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>457F72A99A7B4C6615AFF42B232DC1CED45F55B4</string>
+				<key>dateExpires</key>
+				<string>8/8/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>J2L54M7A2G.JuliethAngel.Kids-AR-Kid</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>J2L54M7A2G</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>J2L54M7A2G.JuliethAngel.Kids-AR-Kid</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Kids_AR_Kid.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ff60ac6d-3046-42b1-8779-c472baf73c1d</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: JuliethAngel.Kids-AR-Kid</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>J2L54M7A2G</string>
+				<key>name</key>
+				<string>Julieth Angel</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,132 @@
+2019-08-13 01:03:16 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa33e5d7720; archive(resolved)='<IDEArchive: 0x7fa33a319970>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa33e5d7720; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa33e573390; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa338f04720; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33aab12d0; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33aaebd40; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33e012bc0; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33ab5c110; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33aab3d60; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa3386b65b0; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa3386d0e10; teamID='J2L54M7A2G', teamName='Julieth Angel', teamType='Individual', username='lula764@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa33a94d290; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='(null)'>
+	<IDEDistributionContext: 0x7fa33a701b80; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa337c8ac70>', team='(null)'>
+	<IDEDistributionContext: 0x7fa33e0bb620; archive = '<IDEArchive: 0x7fa33a319970>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa33e5d7720>
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCopyItemStep
+2019-08-13 01:03:16 +0000  Running /usr/bin/ditto '-V' '/Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/Products/Applications/Kids_AR_Kid.app' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/Payload/Kids_AR_Kid.app'
+2019-08-13 01:03:16 +0000  >>> Copying /Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/Products/Applications/Kids_AR_Kid.app 
+2019-08-13 01:03:16 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-08-13 01:03:16 +0000  4763 bytes for ./_CodeSignature/CodeResources
+2019-08-13 01:03:16 +0000  copying file ./Scene.sks ... 
+2019-08-13 01:03:16 +0000  3539 bytes for ./Scene.sks
+copying file ./AppIcon60x60@2x.png ... 
+2019-08-13 01:03:16 +0000  12409 bytes for ./AppIcon60x60@2x.png
+2019-08-13 01:03:16 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+2019-08-13 01:03:16 +0000  983 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+copying file ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-U0K-SW-4ec.nib ... 
+2019-08-13 01:03:16 +0000  13999 bytes for ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-U0K-SW-4ec.nib
+2019-08-13 01:03:16 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-08-13 01:03:16 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-08-13 01:03:16 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-08-13 01:03:16 +0000  2485 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-08-13 01:03:16 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-08-13 01:03:16 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-08-13 01:03:16 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-08-13 01:03:16 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-08-13 01:03:16 +0000  copying file ./Kids_AR_Kid ... 
+2019-08-13 01:03:16 +0000  242768 bytes for ./Kids_AR_Kid
+2019-08-13 01:03:16 +0000  copying file ./Assets.car ... 
+2019-08-13 01:03:16 +0000  877448 bytes for ./Assets.car
+2019-08-13 01:03:16 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-08-13 01:03:16 +0000  13448 bytes for ./AppIcon76x76@2x~ipad.png
+2019-08-13 01:03:16 +0000  copying file ./embedded.mobileprovision ... 
+2019-08-13 01:03:16 +0000  7965 bytes for ./embedded.mobileprovision
+2019-08-13 01:03:16 +0000  copying file ./Info.plist ... 
+2019-08-13 01:03:16 +0000  1368 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-08-13 01:03:16 +0000  8 bytes for ./PkgInfo
+2019-08-13 01:03:16 +0000  /usr/bin/ditto exited with 0
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionItemRemovalStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-08-13 01:03:16 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-08-13 01:03:16 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-08-13 01:03:16 +0000  Running /usr/bin/ditto '-V' '/Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/BCSymbolMaps/885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/BCSymbolMaps/885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap'
+2019-08-13 01:03:16 +0000  >>> Copying /Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/BCSymbolMaps/885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap 
+2019-08-13 01:03:16 +0000  copying file ./885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap ... 
+2019-08-13 01:03:16 +0000  14595 bytes for ./885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap
+2019-08-13 01:03:16 +0000  /usr/bin/ditto exited with 0
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionSymbolsStep
+2019-08-13 01:03:16 +0000  Excluding symbols for Kids_AR_Kid.app
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionAppThinningStep
+2019-08-13 01:03:16 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionArchThinningStep
+2019-08-13 01:03:16 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/Payload/Kids_AR_Kid.app/Kids_AR_Kid' '-verify_arch' 'arm64e'
+2019-08-13 01:03:16 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-08-13 01:03:16 +0000  Skipping architecture thinning for item "Kids_AR_Kid" because arch "arm64e" wasn't found
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionODRStep
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-08-13 01:03:16 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/Payload/Kids_AR_Kid.app'
+2019-08-13 01:03:16 +0000  /usr/bin/xattr exited with 0
+2019-08-13 01:03:16 +0000  Processing step: IDEDistributionCodesignStep
+2019-08-13 01:03:16 +0000  Entitlements for <IDEDistributionItem: 0x7fa33e6134c0 'JuliethAngel.Kids-AR-Kid' '<DVTFilePath:0x7fa338900970:'/Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/Products/Applications/Kids_AR_Kid.app'>'>: {
+    "application-identifier" = "J2L54M7A2G.JuliethAngel.Kids-AR-Kid";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = J2L54M7A2G;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "J2L54M7A2G.JuliethAngel.Kids-AR-Kid"
+    );
+}
+2019-08-13 01:03:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa33e6134c0 'JuliethAngel.Kids-AR-Kid' '<DVTFilePath:0x7fa338900970:'/Users/JuliethAngel/Library/Developer/Xcode/Archives/2019-08-12/Kids_AR_Kid 8-12-19, 9.02 PM.xcarchive/Products/Applications/Kids_AR_Kid.app'>'> to: /var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/entitlements~~~trwZsJ
+2019-08-13 01:03:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '457F72A99A7B4C6615AFF42B232DC1CED45F55B4' '--entitlements' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/entitlements~~~trwZsJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/Payload/Kids_AR_Kid.app'
+2019-08-13 01:03:21 +0000  /var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root/Payload/Kids_AR_Kid.app: signed app bundle with Mach-O thin (arm64) [JuliethAngel.Kids-AR-Kid]
+2019-08-13 01:03:21 +0000  /usr/bin/codesign exited with 0
+2019-08-13 01:03:21 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-08-13 01:03:21 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-13 01:03:21 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-08-13 01:03:21 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root' '/var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Packages/Kids_AR_Kid.ipa'
+2019-08-13 01:03:21 +0000  >>> Copying /var/folders/ym/5dq75s0s10706zzl697r9tx00000gn/T/XcodeDistPipeline.~~~te3o05/Root 
+2019-08-13 01:03:21 +0000  copying file ./BCSymbolMaps/885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap ... 
+2019-08-13 01:03:21 +0000  14595 bytes for ./BCSymbolMaps/885EAB9F-7F20-37A2-8E5B-6A64D29C8DB6.bcsymbolmap
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/_CodeSignature/CodeResources ... 
+2019-08-13 01:03:21 +0000  4763 bytes for ./Payload/Kids_AR_Kid.app/_CodeSignature/CodeResources
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/Scene.sks ... 
+2019-08-13 01:03:21 +0000  3539 bytes for ./Payload/Kids_AR_Kid.app/Scene.sks
+copying file ./Payload/Kids_AR_Kid.app/AppIcon60x60@2x.png ... 
+2019-08-13 01:03:21 +0000  12409 bytes for ./Payload/Kids_AR_Kid.app/AppIcon60x60@2x.png
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+2019-08-13 01:03:21 +0000  983 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+copying file ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-U0K-SW-4ec.nib ... 
+2019-08-13 01:03:21 +0000  13999 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-U0K-SW-4ec.nib
+copying file ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-08-13 01:03:21 +0000  258 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/Main.storyboardc/Info.plist
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-08-13 01:03:21 +0000  2485 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-08-13 01:03:21 +0000  832 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-08-13 01:03:21 +0000  258 bytes for ./Payload/Kids_AR_Kid.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Kids_AR_Kid.app/Kids_AR_Kid ... 
+2019-08-13 01:03:21 +0000  197456 bytes for ./Payload/Kids_AR_Kid.app/Kids_AR_Kid
+copying file ./Payload/Kids_AR_Kid.app/Assets.car ... 
+2019-08-13 01:03:21 +0000  877448 bytes for ./Payload/Kids_AR_Kid.app/Assets.car
+copying file ./Payload/Kids_AR_Kid.app/AppIcon76x76@2x~ipad.png ... 
+2019-08-13 01:03:21 +0000  13448 bytes for ./Payload/Kids_AR_Kid.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Kids_AR_Kid.app/embedded.mobileprovision ... 
+2019-08-13 01:03:21 +0000  7579 bytes for ./Payload/Kids_AR_Kid.app/embedded.mobileprovision
+copying file ./Payload/Kids_AR_Kid.app/Info.plist ... 
+2019-08-13 01:03:21 +0000  1368 bytes for ./Payload/Kids_AR_Kid.app/Info.plist
+2019-08-13 01:03:21 +0000  copying file ./Payload/Kids_AR_Kid.app/PkgInfo ... 
+8 bytes for ./Payload/Kids_AR_Kid.app/PkgInfo
+2019-08-13 01:03:21 +0000  /usr/bin/ditto exited with 0
+2019-08-13 01:03:21 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-08-13 01:03:21 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-08-13 01:03:21 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-08-13 01:03:21 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
