@@ -2,22 +2,20 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "birdSmall.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "birdSmall@2x.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
       "filename" : "bird@3x.png",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

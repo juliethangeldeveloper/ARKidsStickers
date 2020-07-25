@@ -113,6 +113,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return 70
     }
     
+    
    
 //ACTION BUTTONS
     @IBAction func currentEmojiAction(_ sender: UIButton) {
